@@ -9,8 +9,9 @@ int main(){
     int d, dr;
     char tmp;
     #if __linux__
-        if (sizeof(long) == 4)
+        if (sizeof(long) == 4){
             printf("You're in 32 bits!!\nThis Will not work in 32 bits system.\nExit!!");
+            exit(0);}else if (sizeof(long) != 8){printf("This will only work in 64bits!!\nExit!!\n");exit(0);}
         else
             system("clear");
             printf("                            [WIDISTR]\n");
