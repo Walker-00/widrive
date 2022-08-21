@@ -6,7 +6,7 @@ Only for 64bits Linux Machines.<br>
 <h4><code># Install</code></h4>
 
 ```
-git clone https://github.com/Walker-00/widrive && cd widrive && ./widrive
+git clone https://github.com/Walker-00/widrive && cd widrive && bash widrive
 ```
 
 <h4><code># Info</code></h4>
