@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo cc .file/widrive.c -o /bin/widrive
+
+widrive
